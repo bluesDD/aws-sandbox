@@ -1,0 +1,62 @@
+{
+    "DomainName": "",
+    "ElasticsearchVersion": "",
+    "ElasticsearchClusterConfig": {
+        "InstanceType": "d2.8xlarge.elasticsearch",
+        "InstanceCount": 0,
+        "DedicatedMasterEnabled": true,
+        "ZoneAwarenessEnabled": true,
+        "ZoneAwarenessConfig": {
+            "AvailabilityZoneCount": 0
+        },
+        "DedicatedMasterType": "r5.xlarge.elasticsearch",
+        "DedicatedMasterCount": 0,
+        "WarmEnabled": true,
+        "WarmType": "ultrawarm1.large.elasticsearch",
+        "WarmCount": 0
+    },
+    "EBSOptions": {
+        "EBSEnabled": true,
+        "VolumeType": "gp2",
+        "VolumeSize": 0,
+        "Iops": 0
+    },
+    "AccessPolicies": "",
+    "SnapshotOptions": {
+        "AutomatedSnapshotStartHour": 0
+    },
+    "VPCOptions": {
+        "SubnetIds": [
+            ""
+        ],
+        "SecurityGroupIds": [
+            ""
+        ]
+    },
+    "CognitoOptions": {
+        "Enabled": true,
+        "UserPoolId": "",
+        "IdentityPoolId": "",
+        "RoleArn": ""
+    },
+    "EncryptionAtRestOptions": {
+        "Enabled": true,
+        "KmsKeyId": ""
+    },
+    "NodeToNodeEncryptionOptions": {
+        "Enabled": true
+    },
+    "AdvancedOptions": {
+        "KeyName": ""
+    },
+    "LogPublishingOptions": {
+        "KeyName": {
+            "CloudWatchLogsLogGroupArn": "",
+            "Enabled": true
+        }
+    },
+    "DomainEndpointOptions": {
+        "EnforceHTTPS": true,
+        "TLSSecurityPolicy": "Policy-Min-TLS-1-0-2019-07"
+    }
+}
