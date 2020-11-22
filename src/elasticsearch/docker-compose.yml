@@ -1,3 +1,6 @@
+# Firstly, we have to change admin password useing below:
+# docker exec -it {es-container-id} /bin/bash -c /usr/share/elasticsearch/plugins/opendistro_security/tools/hash.sh
+
 version: '3'
 services:
   odfe-node1:
